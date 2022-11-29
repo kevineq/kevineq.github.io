@@ -1,0 +1,41 @@
+img.fr-fil {
+    width: 100%;
+}
+
+.one-quote-warp {
+    margin-top: 30px;
+}
+
+.one-icon-quote::before {
+    content: "“";
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 26px;
+    transform: translate3d(0,13px,0) scale(3);    
+    line-height: 26px;
+} 
+
+.one-quote-warp p {
+    margin-bottom: 0;
+    padding-left: 30px;
+    color: gray;
+}
+
+.html-content p {
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+strong {
+    font-weight: 600;
+}
+
+.copyright {
+    line-height: 22px;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
